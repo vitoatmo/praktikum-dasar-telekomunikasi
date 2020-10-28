@@ -9,7 +9,7 @@ t=0:0.0001:0.5;
 Ai =20 %amplitudo sinyal informasi
 m=Ai*cos(2*pi*fm*t); % sinyal informasi
 
-figure('Name','Percobaan 2.1 Melihat Sinyal Termodulasi FM ')
+figure('Name','Percobaan 2.1 Melihat Sinyal Termodulasi FM')
 
 subplot(3,1,2);
 plot(t,m); xlabel('Time'); ylabel('Amplitudo');
